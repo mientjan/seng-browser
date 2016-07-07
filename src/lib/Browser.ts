@@ -230,7 +230,7 @@ export class Browser
 	 * @param {string} userAgent
 	 * @param {string} platform
 	 */
-	constructor(userAgent:string = navigator.userAgent || navigator.vendor || window['opera'], platform:string = navigator.platform)
+	constructor(userAgent:string = navigator ? navigator.userAgent || navigator.vendor || window['opera'] : '', platform:string = navigator ? navigator.platform : null)
 	{
 		var data = this.parseUserAgent(userAgent, platform);
 
@@ -362,5 +362,3 @@ export class Browser
 		return !!this.userAgent.match(/iPhone/i);
 	}
 }
-
-export default Browser;

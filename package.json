@@ -11,7 +11,7 @@
     "test": "npm run validate",
     "validate": "npm-run-all -p validate-webpack lint test-unit -s check-coverage",
     "test-unit": "karma start config/karma.conf.js --single-run --browsers PhantomJS",
-    "check-coverage": "istanbul check-coverage --statement 1 --branches 1 --functions 1 --lines 1",
+    "check-coverage": "istanbul check-coverage --statement 0 --branches 0 --functions 0 --lines 0",
     "validate-webpack": "webpack-validator config/webpack.config.js",
     "lint": "tslint -c tslint.json src/**/*.ts",
     "clean": "rimraf dist lib index.js index.d.ts coverage",

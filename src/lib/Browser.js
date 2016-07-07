@@ -12,8 +12,8 @@ var Browser = (function () {
      * @param {string} platform
      */
     function Browser(userAgent, platform) {
-        if (userAgent === void 0) { userAgent = navigator.userAgent || navigator.vendor || window['opera']; }
-        if (platform === void 0) { platform = navigator.platform; }
+        if (userAgent === void 0) { userAgent = navigator ? navigator.userAgent || navigator.vendor || window['opera'] : ''; }
+        if (platform === void 0) { platform = navigator ? navigator.platform : null; }
         /**
          *
          * @type {boolean} ie
@@ -290,5 +290,3 @@ var Browser = (function () {
     return Browser;
 }());
 exports.Browser = Browser;
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = Browser;
