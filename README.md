@@ -1,10 +1,10 @@
-[![Travis](https://img.shields.io/travis/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://travis-ci.org/mediamonks/seng-boilerplate)
-[![Code Climate](https://img.shields.io/codeclimate/github/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://codeclimate.com/github/mediamonks/seng-boilerplate)
-[![Coveralls](https://img.shields.io/coveralls/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://coveralls.io/github/mediamonks/seng-boilerplate?branch=master)
-[![npm](https://img.shields.io/npm/v/seng-boilerplate.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-boilerplate)
-[![npm](https://img.shields.io/npm/dm/seng-boilerplate.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-boilerplate)
+[![Travis](https://img.shields.io/travis/mediamonks/seng-browser.svg?maxAge=2592000)](https://travis-ci.org/mediamonks/seng-browser)
+[![Code Climate](https://img.shields.io/codeclimate/github/mediamonks/seng-browser.svg?maxAge=2592000)](https://codeclimate.com/github/mediamonks/seng-browser)
+[![Coveralls](https://img.shields.io/coveralls/mediamonks/seng-browser.svg?maxAge=2592000)](https://coveralls.io/github/mediamonks/seng-browser?branch=master)
+[![npm](https://img.shields.io/npm/v/seng-browser.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-browser)
+[![npm](https://img.shields.io/npm/dm/seng-browser.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-browser)
 
-# seng-boilerplate
+# seng-browser
 
 Add a description here...
 
@@ -12,7 +12,7 @@ Add a description here...
 ## Installation
 
 ```sh
-npm i -S seng-boilerplate
+npm i -S seng-browser
 ```
 
 Or grab one of the following files from the `/dist/` folder for manual use:
@@ -27,8 +27,8 @@ Or grab one of the following files from the `/dist/` folder for manual use:
 ## Usage
 
 ```ts
-import SengBoilerplate from 'seng-boilerplate';
-// import SengBoilerplate from 'seng-boilerplate/lib/classname';
+import SengBoilerplate from 'seng-browser';
+// import SengBoilerplate from 'seng-browser/lib/classname';
 
 // do something with SengBoilerplate
 ```
@@ -36,22 +36,22 @@ import SengBoilerplate from 'seng-boilerplate';
 
 ## Documentation
 
-View the [generated documentation](https://rawgit.com/MediaMonks/seng-boilerplate/master/doc/typedoc/index.html).
+View the [generated documentation](https://rawgit.com/MediaMonks/seng-browser/master/doc/typedoc/index.html).
 
 
 ## Building
 
-In order to build seng-boilerplate, ensure that you have [Git](http://git-scm.com/downloads)
+In order to build seng-browser, ensure that you have [Git](http://git-scm.com/downloads)
 and [Node.js](http://nodejs.org/) installed.
 
 Clone a copy of the repo:
 ```sh
-git clone https://github.com/MediaMonks/seng-boilerplate.git
+git clone https://github.com/MediaMonks/seng-browser.git
 ```
 
-Change to the seng-boilerplate directory:
+Change to the seng-browser directory:
 ```sh
-cd seng-boilerplate
+cd seng-browser
 ```
 
 Install dev dependencies:
@@ -94,13 +94,13 @@ View [AUTHORS.md](./AUTHORS.md)
 [MIT](./LICENSE) © MediaMonks
 
 
-## About this boilerplate
+## About this browser
 
-**Remove this section when cloning this boilerplate to a real project!**
+**Remove this section when cloning this browser to a real project!**
 
 ### Folders
 
-This boilerplate contains the following folders:
+This browser contains the following folders:
 * **/config** - Contains the config files for karma and webpack
 * **/coverage** - Contains the generated test code coverage, is sent to Code
 Climage and Coveral.io.
@@ -122,7 +122,7 @@ available on npm.
 
 ### Files
 
-This boilerplate contains the following files:
+This browser contains the following files:
 * **/config/karma.conf.js** - Configuration for Karma test runner.
 * **/config/webpack.conf.js** - Configuration for Webpack builds.
 * **/script/webpack.js** - Creates all the different webpack dist builds.
@@ -140,7 +140,7 @@ Will be published to npm.
 * **LICENSE** - Our license file.
 * **package.json** - To list the npm package information, all the dependencies,
 and contains all the scripts that can be run.
-* **README.MD** - This file, remove the about section when cloning this boilerplate.
+* **README.MD** - This file, remove the about section when cloning this browser.
 * **tsconfig.json** - The TypeScript configuration file for this project.
 * **/test/tsconfig.json** - The TypeScript configuration file for the tests.
 * **tslint.json** - The linting rules for our TypeScript code.
@@ -236,7 +236,7 @@ sure the encrypted values only work for that repository.
     
     ```sh
     $ travis encrypt <your_auth_token>
-    Detected repository as mediamonks/seng-boilerplate, is this correct? |yes|
+    Detected repository as mediamonks/seng-browser, is this correct? |yes|
     Please add the following to your .travis.yml file:
     
       secure: "YcN...Zb="

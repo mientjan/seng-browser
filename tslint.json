@@ -11,11 +11,9 @@
     "jsdoc-format": false,
     "label-position": true,
     "label-undefined": true,
-    "max-line-length": [true, 999],
     "member-ordering": [true,
       "public-before-private",
-      "static-before-instance",
-      "variables-before-functions"
+      "static-before-instance"
     ],
     "no-any": false,
     "no-arg": true,
@@ -66,7 +64,6 @@
       "allow-leading-underscore"
     ],
     "whitespace": [true,
-      "check-branch",
       "check-decl",
       "check-operator",
       "check-separator"

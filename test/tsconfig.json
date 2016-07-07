@@ -11,6 +11,6 @@
 	},
   "files": [
     "../typings/index.d.ts",
-    "./ExampleSpec.ts"
+    "./BrowserSpec.ts"
   ]
 }
