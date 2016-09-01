@@ -13,7 +13,8 @@
     "label-undefined": true,
     "member-ordering": [true,
       "public-before-private",
-      "static-before-instance"
+      "static-before-instance",
+      "variables-before-functions"
     ],
     "no-any": false,
     "no-arg": true,
