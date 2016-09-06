@@ -103,7 +103,7 @@ export class Browser {
 
 		if(!result.browser)
 		{
-			result.browser = <any> {}
+			result.browser = <any> {};
 		}
 
 		if(!result.browser.name)
@@ -166,7 +166,7 @@ export class Browser {
 
 		if(!result.os)
 		{
-			result.os = <any> {}
+			result.os = <any> {};
 		}
 
 		if(!result.os.name)
@@ -309,7 +309,7 @@ export class Browser {
 				audio.addEventListener('play', () => {
 					this._hasAutoPlaySupport = true;
 					callback(this._hasAutoPlaySupport);
-				})
+				});
 
 				var audioString = 'data:audio/mpeg;base64,/+MYxAAAAANIAUAAAASEEB/jwOFM/0MM/90b/+RhST//w4NFwOjf///PZu////9lns5GFDv//l9GlUIEEIAAAgIg8Ir/JGq3/+MYxDsLIj5QMYcoAP0dv9HIjUcH//yYSg+CIbkGP//8w0bLVjUP///3Z0x5QCAv/yLjwtGKTEFNRTMuOTeqqqqqqqqqqqqq/+MYxEkNmdJkUYc4AKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq';
 				audio.src = audioString;
@@ -324,7 +324,7 @@ export class Browser {
 				}, 500);
 
 			} catch(e) {
-
+				// silent catch
 			}
 		} else {
 			callback(this._hasAutoPlaySupport);
