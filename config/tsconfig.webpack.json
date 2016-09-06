@@ -8,12 +8,12 @@
     "preserveConstEnums": true,
     "noImplicitAny": false,
     "removeComments": false,
+    "noEmitHelpers": true,
     "sourceMap": false,
     "inlineSourceMap": false,
     "outDir": "./"
   },
   "files": [
-    "./typings/index.d.ts",
-    "./src/index.ts"
+    "typings/index.d.ts"
   ]
 }

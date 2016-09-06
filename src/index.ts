@@ -1,5 +1,3 @@
-import {default as _export} from './lib/Example';
+import {Browser} from "./lib/Browser";
 
-export {default as IExample} from './lib/IExample';
-
-export default _export;
+export default Browser;

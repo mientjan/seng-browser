@@ -65,20 +65,20 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<p><a href="https://travis-ci.org/mediamonks/seng-boilerplate"><img src="https://img.shields.io/travis/mediamonks/seng-boilerplate.svg?maxAge=2592000" alt="Travis"></a>
-					<a href="https://codeclimate.com/github/mediamonks/seng-boilerplate"><img src="https://img.shields.io/codeclimate/github/mediamonks/seng-boilerplate.svg?maxAge=2592000" alt="Code Climate"></a>
-					<a href="https://coveralls.io/github/mediamonks/seng-boilerplate?branch=master"><img src="https://img.shields.io/coveralls/mediamonks/seng-boilerplate.svg?maxAge=2592000" alt="Coveralls"></a>
-					<a href="https://www.npmjs.com/package/seng-boilerplate"><img src="https://img.shields.io/npm/v/seng-boilerplate.svg?maxAge=2592000" alt="npm"></a>
-				<a href="https://www.npmjs.com/package/seng-boilerplate"><img src="https://img.shields.io/npm/dm/seng-boilerplate.svg?maxAge=2592000" alt="npm"></a></p>
+				<p><a href="https://travis-ci.org/mediamonks/seng-browser"><img src="https://img.shields.io/travis/mediamonks/seng-browser.svg?maxAge=browser" alt="Travis"></a>
+					<a href="https://codeclimate.com/github/mediamonks/seng-browser"><img src="https://img.shields.io/codeclimate/github/mediamonks/seng-boilerplate.svg?maxAge=2592000" alt="Code Climate"></a>
+					<a href="https://coveralls.io/github/mediamonks/seng-browser?branch=master"><img src="https://img.shields.io/coveralls/mediamonks/seng-browser.svg?maxAge=2592000" alt="Coveralls"></a>
+					<a href="https://www.npmjs.com/package/seng-browser"><img src="https://img.shields.io/npm/v/seng-browser.svg?maxAge=2592000" alt="npm"></a>
+				<a href="https://www.npmjs.com/package/seng-browser"><img src="https://img.shields.io/npm/dm/seng-browser.svg?maxAge=2592000" alt="npm"></a></p>
 				<h1 id="seng-boilerplate">seng-boilerplate</h1>
 				<p>Add a description here...</p>
 				<h2 id="installation">Installation</h2>
 				<h3 id="npm">npm</h3>
-				<pre><code class="lang-sh">npm i -S seng-boilerplate
+				<pre><code class="lang-sh">npm install --save seng-browser
 </code></pre>
 				<h3 id="other">other</h3>
 				<p>We also have browser, amd, commonjs, umd, systemjs and es6 versions of
-				this module available attached to the <a href="https://github.com/mediamonks/seng-boilerplate/releases">Github Releases</a>.</p>
+				this module available attached to the <a href="https://github.com/mediamonks/seng-browser/releases">Github Releases</a>.</p>
 				<!---
 
 Note: The below cannot be used yet, as there is no way to link to a
@@ -100,33 +100,36 @@ console.log(window.SengBoilerplate)
 Besides the browser version, there are other versions available for
 download as well:
 
-- [browser](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.min.js))
-- [umd](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-umd.min.js))
-- [amd](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-amd.js)
-- [commonjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-commonjs.js)
-- [systemjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-system.js)
-- [es6](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-es6.zip)
+- [browser](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.min.js))
+- [umd](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-umd.min.js))
+- [amd](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-amd.js)
+- [commonjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-commonjs.js)
+- [systemjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-system.js)
+- [es6](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-es6.zip)
 
 -->
 				<h3 id="manual">manual</h3>
 				<p>Check the <strong>build</strong> section below to see your you can build for all the
 				targets yourself.</p>
 				<h2 id="usage">Usage</h2>
-				<pre><code class="lang-ts"><span class="hljs-keyword">import</span> SengBoilerplate from <span class="hljs-string">'seng-boilerplate'</span>;
-<span class="hljs-comment">// import SengBoilerplate from 'seng-boilerplate/lib/classname';</span>
+				<pre><code class="lang-ts"><span class="hljs-keyword">import</span> SengBoilerplate from <span class="hljs-string">'senq-browser'</span>;
+<span class="hljs-comment">// import SengBoilerplate from 'senq-browser/lib/classname';</span>
 
 <span class="hljs-comment">// do something with SengBoilerplate</span>
 </code></pre>
 				<h2 id="documentation">Documentation</h2>
-				<p>View the <a href="https://rawgit.com/mediamonks/seng-boilerplate/master/doc/typedoc/index.html">generated documentation</a>.</p>
+				<p>View the <a href="https://rawgit.com/mediamonks/senq-browser/master/doc/typedoc/index.html">generated documentation</a>.</p>
 				<h2 id="building">Building</h2>
-				<p>In order to build seng-boilerplate, ensure that you have <a href="http://git-scm.com/downloads">Git</a>
+				<p>In order to build senq-browser, ensure that you have <a href="http://git-scm.com/downloads">Git</a>
 				and <a href="http://nodejs.org/">Node.js</a> installed.</p>
 				<p>Clone a copy of the repo:</p>
-				<pre><code class="lang-sh">git <span class="hljs-built_in">clone</span> https://github.com/mediamonks/seng-boilerplate.git
+				<pre><code class="lang-sh">git <span class="hljs-built_in">clone</span> https://github.com/mediamonks/seng-browser.git
 </code></pre>
-				<p>Change to the seng-boilerplate directory:</p>
-				<pre><code class="lang-sh"><span class="hljs-built_in">cd</span> seng-boilerplate
+				<p>Change to the senq-browser directory:</p>
+				<pre><code class="lang-sh"><span class="hljs-built_in">cd</span> seng-browser
+</code></pre>
+				<p>Install typings cli utility:</p>
+				<pre><code class="lang-sh">npm install typings --global
 </code></pre>
 				<p>Install dev dependencies:</p>
 				<pre><code class="lang-sh">npm install
@@ -138,7 +141,7 @@ npm run typings            <span class="hljs-comment"># install .d.ts dependenci
 npm run <span class="hljs-built_in">test</span>-unit        <span class="hljs-comment"># run the unit tests</span>
 npm run validate        <span class="hljs-comment"># runs validation scripts, including test, lint and coverage check</span>
 npm run lint            <span class="hljs-comment"># run tslint on this project</span>
-npm run doc                <span class="hljs-comment"># generate typedoc and yuidoc documentation</span>
+npm run doc                <span class="hljs-comment"># generate typedoc documentation</span>
 npm run typescript-npm    <span class="hljs-comment"># just compile the typescript output used in the npm module</span>
 </code></pre>
 				<p>When installing this module, it adds a pre-push hook, that runs the <code>validate</code>
@@ -147,19 +150,19 @@ npm run typescript-npm    <span class="hljs-comment"># just compile the typescri
 					<code>build-dist</code> script, and the following files will get generated in the
 				<code>dist</code> folder:</p>
 				<ul>
-					<li><strong>/dist/seng-boilerplate.js</strong>: bundled with webpack, can be loaded from
+					<li><strong>/dist/senq-browser.js</strong>: bundled with webpack, can be loaded from
 					a script tag, available as <code>window.SengBoilerplate</code></li>
-					<li><strong>/dist/seng-boilerplate.min.js</strong>: same as above, but minified</li>
-					<li><strong>/dist/seng-boilerplate-amd.js</strong>: bundled with webpack, can be used
+					<li><strong>/dist/senq-browser.min.js</strong>: same as above, but minified</li>
+					<li><strong>/dist/senq-browser-amd.js</strong>: bundled with webpack, can be used
 					with e.g. requirejs</li>
-					<li><strong>/dist/seng-boilerplate-commonjs.js</strong>: bundled with webpack, can be
+					<li><strong>/dist/senq-browser-commonjs.js</strong>: bundled with webpack, can be
 					used in systems that support commonjs, but you should just use npm</li>
-					<li><strong>/dist/seng-boilerplate-umd.js</strong>: bundled with webpack, works in the
+					<li><strong>/dist/senq-browser-umd.js</strong>: bundled with webpack, works in the
 					browser, with requirejs, and in a commonjs system</li>
-					<li><strong>/dist/seng-boilerplate-umd.min.js</strong>: same as above, but minified</li>
-					<li><strong>/dist/seng-boilerplate-system.js</strong>: bundled with typescript, can be
+					<li><strong>/dist/senq-browser-umd.min.js</strong>: same as above, but minified</li>
+					<li><strong>/dist/senq-browser-system.js</strong>: bundled with typescript, can be
 					used in systems    that support systemjs</li>
-					<li><strong>/dist/seng-boilerplate-es6.zip</strong>: transpiled with typescript, only
+					<li><strong>/dist/senq-browser-es6.zip</strong>: transpiled with typescript, only
 					types are removed from the source files</li>
 				</ul>
 				<h2 id="contribute">Contribute</h2>
@@ -180,10 +183,7 @@ npm run typescript-npm    <span class="hljs-comment"># just compile the typescri
 					Climage and Coveral.io.</li>
 					<li><strong>/dist</strong> - Contains the compiled code in different forms for manual usage.</li>
 					<li><strong>/doc</strong> - Can contain additional documentation.</li>
-					<li><strong>/docs/typedoc/</strong> - Contains the generated documentation by typedoc. (Can be
-					removed for JS-only project)</li>
-					<li><strong>/docs/yuidoc/</strong> - Contains the generated documentation by yuidoc. (Can be
-					removed for TS-only project)</li>
+					<li><strong>/docs/typedoc/</strong> - Contains the generated documentation by typedoc.</li>
 					<li><strong>/example</strong> - Can contain additional examples on how to use this module.</li>
 					<li><strong>/lib</strong> - Contains the built code from <code>src/lib</code>, will be published to npm.</li>
 					<li><strong>/node_modules</strong> - Contains the node modules generated by running <code>npm i</code>.</li>
@@ -255,7 +255,7 @@ npm run typescript-npm    <span class="hljs-comment"># just compile the typescri
 				a CLI written in ruby.</p>
 				<p>Before we can do this, we must make sure that the repository is added
 					to Travis, because Travis needs the repository owner/name info to make
-				sure the encrypted values only work for that repository. </p>
+				sure the encrypted values only work for that repository.</p>
 				<ol>
 					<li><p>First you need to <a href="https://github.com/travis-ci/travis.rb#login">login</a>
 						with your travis account:</p>
@@ -283,7 +283,7 @@ npm run typescript-npm    <span class="hljs-comment"># just compile the typescri
 					<li><p>Then let&#39;s encrypt that token using the travis <a href="https://github.com/travis-ci/travis.rb#encrypt">encrypt</a>
 						command:</p>
 						<pre><code class="lang-sh">$ travis encrypt &lt;your_auth_token&gt;
-Detected repository as mediamonks/seng-boilerplate, is this correct? |yes|
+Detected repository as mediamonks/senq-browser, is this correct? |yes|
 Please add the following to your .travis.yml file:
 
   secure: <span class="hljs-string">"YcN...Zb="</span>
@@ -318,17 +318,11 @@ Please add the following to your .travis.yml file:
 					<li class=" tsd-kind-external-module">
 						<a href="modules/_index_.html">"index"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_lib_dummy_.html">"lib/<wbr>Dummy"</a>
-					</li>
 					<li class="label tsd-is-external">
 						<span>Externals</span>
 					</li>
 					<li class=" tsd-kind-external-module tsd-is-external">
-						<a href="modules/_lib_example_.html">"lib/<wbr>Example"</a>
-					</li>
-					<li class=" tsd-kind-external-module tsd-is-external">
-						<a href="modules/_lib_iexample_.html">"lib/IExample"</a>
+						<a href="modules/_lib_browser_.html">"lib/<wbr>Browser"</a>
 					</li>
 				</ul>
 			</nav>

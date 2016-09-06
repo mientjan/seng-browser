@@ -6,6 +6,7 @@
     "chai": "registry:npm/chai#3.5.0+20160415060238"
   },
   "globalDependencies": {
+    "ua-parser-js": "registry:dt/ua-parser-js#0.7.10+20160626105336",
     "webpack-env": "registry:dt/webpack-env#1.12.2+20160316155526"
   }
 }

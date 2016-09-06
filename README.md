@@ -1,8 +1,8 @@
-[![Travis](https://img.shields.io/travis/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://travis-ci.org/mediamonks/seng-boilerplate)
-[![Code Climate](https://img.shields.io/codeclimate/github/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://codeclimate.com/github/mediamonks/seng-boilerplate)
-[![Coveralls](https://img.shields.io/coveralls/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://coveralls.io/github/mediamonks/seng-boilerplate?branch=master)
-[![npm](https://img.shields.io/npm/v/seng-boilerplate.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-boilerplate)
-[![npm](https://img.shields.io/npm/dm/seng-boilerplate.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-boilerplate)
+[![Travis](https://img.shields.io/travis/mediamonks/seng-browser.svg?maxAge=browser)](https://travis-ci.org/mediamonks/seng-browser)
+[![Code Climate](https://img.shields.io/codeclimate/github/mediamonks/seng-boilerplate.svg?maxAge=2592000)](https://codeclimate.com/github/mediamonks/seng-browser)
+[![Coveralls](https://img.shields.io/coveralls/mediamonks/seng-browser.svg?maxAge=2592000)](https://coveralls.io/github/mediamonks/seng-browser?branch=master)
+[![npm](https://img.shields.io/npm/v/seng-browser.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-browser)
+[![npm](https://img.shields.io/npm/dm/seng-browser.svg?maxAge=2592000)](https://www.npmjs.com/package/seng-browser)
 
 # seng-boilerplate
 
@@ -14,13 +14,13 @@ Add a description here...
 ### npm
 
 ```sh
-npm i -S seng-boilerplate
+npm install --save seng-browser
 ```
 
 ### other
 
 We also have browser, amd, commonjs, umd, systemjs and es6 versions of
-this module available attached to the [Github Releases](https://github.com/mediamonks/seng-boilerplate/releases).
+this module available attached to the [Github Releases](https://github.com/mediamonks/seng-browser/releases).
 
 <!---
 
@@ -43,12 +43,12 @@ console.log(window.SengBoilerplate)
 Besides the browser version, there are other versions available for
 download as well:
 
-- [browser](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.min.js))
-- [umd](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-umd.min.js))
-- [amd](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-amd.js)
-- [commonjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-commonjs.js)
-- [systemjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-system.js)
-- [es6](http://mediamonks-development.s3.amazonaws.com/seng/libs/seng-boilerplate/1.2.0/seng-boilerplate-es6.zip)
+- [browser](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.min.js))
+- [umd](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser.js) (and [minified](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-umd.min.js))
+- [amd](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-amd.js)
+- [commonjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-commonjs.js)
+- [systemjs](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-system.js)
+- [es6](http://mediamonks-development.s3.amazonaws.com/seng/libs/senq-browser/1.2.0/senq-browser-es6.zip)
 
 -->
 
@@ -60,8 +60,8 @@ targets yourself.
 ## Usage
 
 ```ts
-import SengBoilerplate from 'seng-boilerplate';
-// import SengBoilerplate from 'seng-boilerplate/lib/classname';
+import SengBoilerplate from 'senq-browser';
+// import SengBoilerplate from 'senq-browser/lib/classname';
 
 // do something with SengBoilerplate
 ```
@@ -69,22 +69,22 @@ import SengBoilerplate from 'seng-boilerplate';
 
 ## Documentation
 
-View the [generated documentation](https://rawgit.com/mediamonks/seng-boilerplate/master/doc/typedoc/index.html).
+View the [generated documentation](https://rawgit.com/mediamonks/senq-browser/master/doc/typedoc/index.html).
 
 
 ## Building
 
-In order to build seng-boilerplate, ensure that you have [Git](http://git-scm.com/downloads)
+In order to build senq-browser, ensure that you have [Git](http://git-scm.com/downloads)
 and [Node.js](http://nodejs.org/) installed.
 
 Clone a copy of the repo:
 ```sh
-git clone https://github.com/mediamonks/seng-boilerplate.git
+git clone https://github.com/mediamonks/seng-browser.git
 ```
 
-Change to the seng-boilerplate directory:
+Change to the senq-browser directory:
 ```sh
-cd seng-boilerplate
+cd seng-browser
 ```
 
 Install typings cli utility:
@@ -116,19 +116,19 @@ If you want to create the distribution files yourself, you can run the
 `build-dist` script, and the following files will get generated in the
 `dist` folder:
 
-- **/dist/seng-boilerplate.js**: bundled with webpack, can be loaded from
+- **/dist/senq-browser.js**: bundled with webpack, can be loaded from
 	a script tag, available as `window.SengBoilerplate`
-- **/dist/seng-boilerplate.min.js**: same as above, but minified
-- **/dist/seng-boilerplate-amd.js**: bundled with webpack, can be used
+- **/dist/senq-browser.min.js**: same as above, but minified
+- **/dist/senq-browser-amd.js**: bundled with webpack, can be used
 	with e.g. requirejs
-- **/dist/seng-boilerplate-commonjs.js**: bundled with webpack, can be
+- **/dist/senq-browser-commonjs.js**: bundled with webpack, can be
 	used in systems that support commonjs, but you should just use npm
-- **/dist/seng-boilerplate-umd.js**: bundled with webpack, works in the
+- **/dist/senq-browser-umd.js**: bundled with webpack, works in the
 	browser, with requirejs, and in a commonjs system
-- **/dist/seng-boilerplate-umd.min.js**: same as above, but minified
-- **/dist/seng-boilerplate-system.js**: bundled with typescript, can be
+- **/dist/senq-browser-umd.min.js**: same as above, but minified
+- **/dist/senq-browser-system.js**: bundled with typescript, can be
 	used in systems	that support systemjs
-- **/dist/seng-boilerplate-es6.zip**: transpiled with typescript, only
+- **/dist/senq-browser-es6.zip**: transpiled with typescript, only
 	types are removed from the source files
 
 ## Contribute
@@ -290,7 +290,7 @@ sure the encrypted values only work for that repository.
 
     ```sh
     $ travis encrypt <your_auth_token>
-    Detected repository as mediamonks/seng-boilerplate, is this correct? |yes|
+    Detected repository as mediamonks/senq-browser, is this correct? |yes|
     Please add the following to your .travis.yml file:
 
       secure: "YcN...Zb="
