@@ -6,6 +6,8 @@ export var browserUserAgent = [
 		{
 			"name"    : "android",
 			"version" : 4,
+			"android": true,
+			"chrome": false,
 		}
 	},
 	{
@@ -15,6 +17,8 @@ export var browserUserAgent = [
 		{
 			"name"    : "android",
 			"version" : 4,
+			"android": true,
+			"chrome": false,
 		}
 	},
 	{
@@ -24,7 +28,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "arora",
 			"version" : "0.2",
-			"major"   : "0"
+			"major"   : "0",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -34,7 +40,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "avant",
 			"version" : "undefined",
-			"major"   : "undefined"
+			"major"   : "undefined",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -44,7 +52,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "baidu",
 			"version" : "1.x",
-			"major"   : "1"
+			"major"   : "1",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -54,7 +64,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "bolt",
 			"version" : "0.862",
-			"major"   : "0"
+			"major"   : "0",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -64,7 +76,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "camino",
 			"version" : "2.0.9",
-			"major"   : "2"
+			"major"   : "2",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -74,7 +88,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "chimera",
 			"version" : "0.6",
-			"major"   : "0"
+			"major"   : "0",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
@@ -84,7 +100,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "chrome",
 			"version" : "20.0.1090.0",
-			"major"   : "20"
+			"major"   : "20",
+			"android": false,
+			"chrome": true,
 		}
 	},
 	{
@@ -94,7 +112,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "chrome",
 			"version" : "19.0.1084.60",
-			"major"   : "19"
+			"major"   : "19",
+			"android": false,
+			"chrome": true,
 		}
 	},
 	{
@@ -104,7 +124,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "chrome",
 			"version" : "16.0.912.21",
-			"major"   : "16"
+			"major"   : "16",
+			"android": false,
+			"chrome": true,
 		}
 	},
 	{
@@ -114,7 +136,9 @@ export var browserUserAgent = [
 		{
 			"name"    : "chrome",
 			"version" : "16.0.912.75",
-			"major"   : "16"
+			"major"   : "16",
+			"android": true,
+			"chrome": true,
 		}
 	},
 	{
@@ -124,7 +148,9 @@ export var browserUserAgent = [
 		{
 			"name":"dillo",
 			"version" : "2.2",
-			"major"   : "2"
+			"major"   : "2",
+			"android": false,
+			"chrome": false,
 		}
 	},
 	{
